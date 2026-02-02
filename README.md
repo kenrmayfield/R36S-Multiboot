@@ -2,6 +2,8 @@
 
 # [Releases are at r36s-stuff.github.io/R36S-Multiboot](https://r36s-stuff.github.io/R36S-Multiboot)
 
+# [This Version of WideVine(DRM) for AARCH64 Compatibility](https://github.com/AsahiLinux/widevine-installer)
+
 # Gameconsole R36S Multiboot images (and builder)
 Shoutout to the [R36S Handheld Wiki](https://handhelds.wiki/R36S_Handheld_Wiki)
 
@@ -14,6 +16,10 @@ Shoutout to the [R36S Handheld Wiki](https://handhelds.wiki/R36S_Handheld_Wiki)
 
 - once extracted, youll have another compressed file, `<image>.xz`
     - this file can be flashed without further extraction by Raspberry Pi Imager and BelanaEtcher
+ 
+- ### NOTE: 
+  Kodi InputStreamHelper Installs a 32Bit WideVine(DRM) Module that is InCompatible with AARCH64. Install the Compatible AARCH64 WideVine(DRM) Module.
+    - https://github.com/AsahiLinux/widevine-installer
 
 ## Multiboot Buttons
 
